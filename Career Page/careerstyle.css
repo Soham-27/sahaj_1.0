@@ -1,0 +1,129 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Career Container */
+.career-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.sub-heading {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Blue Header Bar */
+.header-bar {
+    width: 60%;
+    height: 6px;
+    background-color: #3498db;
+    margin: 10px auto;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.header-bar:hover {
+    background-color: #2980b9;
+}
+
+/* Info Card Styles */
+.info-card {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.info-card h2 {
+    padding: 15px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.info-card h2:hover {
+    background-color: #2980b9;
+}
+
+.info-card div {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #ecf0f1;
+    padding: 0 20px;
+    transition: max-height 0.3s ease;
+}
+
+.info-card div ul {
+    padding: 15px 0;
+    list-style-type: none;
+}
+
+.info-card div ul li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: #34495e;
+    color: white;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Hover Effect on Career Container */
+.career-container:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    .info-card h2 {
+        font-size: 1.2rem;
+    }
+}
